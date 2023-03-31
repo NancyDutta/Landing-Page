@@ -1,0 +1,271 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    justify-content: center;
+    align-items: center;
+    height: 9px;
+}
+#home::before{
+    content: "";
+    position: absolute;
+    background: url(/image/Individual.jpg) no-repeat center center/cover;
+    height: 100vh;
+    width: 100vw;
+    z-index: -1;
+    opacity: 0.3;
+    
+}
+
+ h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50vh;
+    font-size: 3.5rem;
+    
+}
+ h4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2vh;
+    font-size: 1.1rem;
+    
+}
+#navbar {
+    display:flex;
+    margin: 30px;
+    color: #083177;
+}
+#navbar i {
+    display:flex;
+    margin: 10px;
+flex-wrap: wrap;
+flex-direction: column;
+}
+/* #navbar select{
+    width: 80px;
+    height: 30px;
+    border-radius: 20px;
+    border: white;
+    font-size: 1.0rem;
+    color: #083177;
+    background: none;
+    display: flex;
+float: right;
+flex-wrap: wrap;
+    flex-direction: row-reverse;
+
+} */
+
+ div button{
+    background-color:#083177;;
+    color: white;
+    position: relative;
+    /* left: 41.5%; */
+    border-radius: 20px;
+    font-size: 1.0rem;
+    margin: 30px;
+    padding: 8px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: #083177;
+}
+ button:hover{
+    background-color: lightslategray;
+}
+ h6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6px;
+    
+}
+ul{
+    position: absolute;
+    top: 50%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    display: flex;
+}
+ul li{
+    list-style: none;
+    /* width: 10px;
+    height: 10px; */
+    background: rgb(250, 249, 249);
+margin: 0 10px;
+transition: 0.5s;
+}
+ul li span{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border: 2px solid white;
+    transition: 0.5s;
+}
+ul li.next span
+{
+    top: 50%;
+    right: 20%;
+    transform: translateY(-50%) rotate(-45deg);
+    border-left: none;
+    border-top: none;
+}
+ul li.next span:before{
+content: '';
+position: absolute;
+width: 12px;
+height: 3px;
+background: white;
+transform: rotate(45deg) translate(0px,7px) scale(0);
+transition: 0.5s;
+}
+ul li.next:hover span::before{
+    transform: rotate(45deg) translate(0px,7px) scale(1);
+
+}
+.box1 img{
+    height: 270px;
+    width: 300px;
+    padding-left: 250px;
+    margin-top: 400px;
+    
+
+}
+
+#qr{
+    height: 100px;
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    float: right;
+    margin-top: 420px;
+    padding-right: 250px;
+}
+
+#qr p{
+padding: 20px;
+}
+div .btn{
+    margin-top: 5px;
+}
+.box2 img{
+    height: 270px;
+    width: 300px;
+    padding-left: 800px;
+    margin-top: 50px;
+}
+#light{
+    height: 100px;
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    float: left;
+    margin-top: -280px;
+    padding-left: 250px;
+}
+#light p{
+    padding: 20px;
+}
+.box3 img{
+    height: 270px;
+    width: 300px;
+    padding: 250px;
+    margin-top: -186px;
+}
+#laptop{
+    height: 100px;
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    float: right;
+    margin-top: -500px;
+    padding-right: 250px;
+}
+#laptop p{
+    padding: 20px;
+}
+.data img{
+    height: 170px;
+    width: 350px;
+    padding: 40px;
+    margin-top: -96px;
+}
+.data {
+    height: 100px;
+    width: 366px;
+    margin-top: 10px;
+    
+}
+.content{
+    margin-top: -32px;
+    padding-left: 150px;
+}
+.para1{
+    margin-top: 15px;
+    padding-left: 97px;
+}
+.home-location img{
+    height: 170px;
+    width: 350px;
+    padding-left: 490px;
+    margin-top: -150px;
+}
+.home-location{
+    height: 300px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+.content1{
+    padding-left: 581px;
+    margin-top: 11px;
+    width: 300px;
+}
+    
+.para2{
+    margin-top: 15px;
+    padding-left: 543px;
+    width: 288px;
+}
+.security img{
+    height: 170px;
+    width: 350px;
+    padding-left: 931px;
+    margin-top: -28.1rem;
+
+}
+.security{
+    display: flex;
+    flex-direction: column;
+}
+.content3{
+    padding-left: 964px;
+    margin-top: 23px;
+    width: 300px;
+} 
+.para3{
+    margin-top: 33px;
+    padding-left: 964px;
+    width: 288px; 
+}
+.link{
+    margin-top: -66px;
+    padding-left: 44%;
+}
+#network img{
+    height: 500px;
+    width: 100%;
+    margin-top: 60px;
+}
+#network a{
+    display: flex;
+    margin-top: -50px;
+    padding-left: 528px;
+
+}
